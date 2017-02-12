@@ -1,0 +1,7 @@
+<div al-repeat="film in starwars">
+    <div class="row" al-css="yelloColor:($index%2),meterColor:!($index%2)">
+        <div class="col-sm-4">{{film.title}}</div>
+        <div class="col-sm-4">{{film.director}}</div>
+        <div class="col-sm-4">{{film.release_date}}</div>
+    </div>
+</div>
